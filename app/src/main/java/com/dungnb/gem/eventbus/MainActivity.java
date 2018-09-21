@@ -4,6 +4,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,10 +21,23 @@ public class MainActivity extends AppCompatActivity {
     EventBus.getDefault().register(this);
   }
 
-
   @Override
   protected void onDestroy() {
     super.onDestroy();
     EventBus.getDefault().unregister(this);
+  }
+
+  @Subscribe(threadMode = ThreadMode.MAIN)
+  public void onEvent(Event event) {
+    switch (event.getType()) {
+      case Event.TypeEvent.ADD:
+        break;
+      case Event.TypeEvent.EDIT:
+        break;
+      case Event.TypeEvent.REMOVE:
+        break;
+      default:
+        break;
+    }
   }
 }

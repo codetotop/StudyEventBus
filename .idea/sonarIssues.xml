@@ -3,6 +3,31 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="$PROJECT_DIR$/../RealmDatabase/app/src/main/java/com/dungnb/gem/realmdatabaseexample/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RealmDatabase/app/src/main/java/com/dungnb/gem/realmdatabaseexample/Person.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RealmDatabase/app/src/main/java/com/dungnb/gem/realmdatabaseexample/PersonAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RealmDatabase/app/src/main/java/com/dungnb/gem/realmdatabaseexample/RealmControls.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../RealmDatabase/app/src/main/res/layout/item.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/build.gradle">
           <value>
             <set />

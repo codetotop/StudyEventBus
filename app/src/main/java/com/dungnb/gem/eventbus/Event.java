@@ -13,10 +13,26 @@ public class Event {
     this.type = type;
   }
 
-  public static class TypeEvent {
-    public static int ADD = 0;
-    public static int REMOVE = 1;
-    public static int EDIT = 2;
+  public Object getObject() {
+    return object;
+  }
+
+  public void setObject(Object object) {
+    this.object = object;
+  }
+
+  public int getType() {
+    return type;
+  }
+
+  public void setType(int type) {
+    this.type = type;
+  }
+
+  interface TypeEvent {
+    int ADD = 0;
+    int REMOVE = 1;
+    int EDIT = 2;
   }
 
 }
